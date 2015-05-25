@@ -1,18 +1,16 @@
 # Trianglify Background Generator
 
-![](app.png)
+![App](img/app.png)
 
 A tool to generate images from SVGs rendered by the [Trianglify](https://github.com/qrohlf/trianglify) JS plugin.
 
-The app utilises the [ColourLovers](http:colourlovers.com) API to allow backgrounds to be generated using colours from the top 100
-palettes.
+The app utilizes the [ColourLovers](http://colourlovers.com) API to allow backgrounds to be generated using colors from the top 100 palettes.
 
-See the app in action [here](http://alssndro.github.io/trianglify-background-generator/).
+See the app in action [here](https://alssndro.github.io/trianglify-background-generator/).
 
 ## Issues
 
-There are some compatibility issues regarding conversion of SVGs to images in-browser. At the moment
-the Download feature does not work in Safari.
+There are some compatibility issues regarding conversion of SVGs to images in-browser. At the moment the Download feature does not work in Safari.
 
 For the moment I have also omitted the 'noise' slider since converting medium/large resolution SVGs (with noise) to PNG kept crashing the Chrome tab. 
 
